@@ -10,10 +10,12 @@ if you have node version manager(nvm)
 There are 2 folder Client and API code
 
 Client code Steps
+   cd client(go into client folder)
    npm install (Only for the first time to load needed dependency)
    npm start (for locally running up the server)
 
 Server code Steps
+    cd server(go into server folder)
     npm install (same as above)
     npm start (same as above)
 
