@@ -1,0 +1,9 @@
+.employeeList {
+    border-bottom: 1px solid;
+    padding: 10px;
+}
+.employeeList:hover {
+    cursor: pointer;
+    background-color: red;
+    color:white;
+}

@@ -1,0 +1,17 @@
+li, ul {
+    list-style: none;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.container {
+    border: 1px solid grey;
+}
+.addressDetails {
+    width: 400px;
+    text-align: center;
+}
