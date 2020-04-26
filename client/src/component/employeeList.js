@@ -4,10 +4,8 @@ import './styles/employeeList.css';
 import Employee from './employee';
 
 const EmployeeList = (props) => {
-    const {employeeList, fetchEmployeeAddress} = props;
-    const onclick = () => {
-        fetchEmployeeAddress(employeeList)
-    };
+    const {employeeList} = props;
+
     return (
         <ul>
             {
